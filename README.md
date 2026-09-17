@@ -25,10 +25,6 @@ Earth-based astrophotography suffers from equipment jitter and atmospheric turbu
 </p>
 <br><br>
 
-<p align="center">
-  <img src="assets/images/lunar_drift.gif" width="240" alt="Lunar drift">
-</p>
-
 
 The first step in solving this challenge is frame alignment. 
 To align frames properly, a crater reference map has been developed from a reference mosaic of 1,300 image captures from the <a href="https://lroc.im-ldi.com/visit/exhibits/1/gallery/17">Lunar Reconnaissance Orbiter Camera</a> and the <a href="https://www.kaggle.com/datasets/sujaykapadnis/moon-crater-database-v1-robbins">Robbins Lunar Crater Database</a>. Mapping has been limited to 295 craters in eight highly-visible maria to avoid detection anomalies that commonly occur near the Moon's limb and terminator.
