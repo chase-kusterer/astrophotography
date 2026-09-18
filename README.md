@@ -29,7 +29,7 @@ Earth-based astrophotography suffers from equipment jitter and atmospheric turbu
   </details>
   
 </p>
-<br><br>
+<br>
 
 
 The first step in solving this challenge is frame alignment. 
@@ -54,7 +54,7 @@ Starting at the center of the lit portion of the moon in the sharpest captured f
   <img src="assets/images/centroid_based_alignment.png" width="800" alt="Centroid-Based Alignment">
 </p>
 
-Resulting in a crisp, ultra-sharp image of the moon.
+Resulting in a crisp, ultra-sharp image of the moon!
 <br>
 <p align="center">
   <img src="assets/images/median_moon_composite.png" width="400" alt="Median Moon Composite">
