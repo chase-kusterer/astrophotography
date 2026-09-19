@@ -7,13 +7,8 @@
 This project innovates in its approach to lunar astrophotography through advanced computer vision techniques. Its objective is to process video frames into an ultra-sharp image of the Moon, utilizing a custom crater reference map and lucky imaging. Alignment and crater detection tuning are applied automatically, but can be customized as needed. The final image is fully based on the provided video frames; no part of the final image is AI-generated.
 <br><br>
 
-
-
-
-
-
 ## Quick Start
-Upload an MP4 to the lunar_videos folder and run the <code>Lunar_Post_Capture</code> notebook.
+Upload an MP4 to the <code>lunar_videos</code> folder and run the <code>Lunar_Post_Capture</code> notebook. A sample lunar video has been provided, so please feel welcome to run the notebook if you don't have a lunar video on hand. Once processed, stacked images will be available in the <code>stacks</code> folder.
 <br><br>
 
 ## Project Walkthrough
@@ -30,7 +25,6 @@ Earth-based astrophotography suffers from equipment jitter and atmospheric turbu
   
 </p>
 <br>
-
 
 The first step in solving this challenge is frame alignment. 
 To align frames properly, a crater reference map has been developed from a reference mosaic of 1,300 image captures from the <a href="https://lroc.im-ldi.com/visit/exhibits/1/gallery/17">Lunar Reconnaissance Orbiter Camera</a> and the <a href="https://www.kaggle.com/datasets/sujaykapadnis/moon-crater-database-v1-robbins">Robbins Lunar Crater Database</a>. Mapping has been limited to 295 craters in eight highly-visible maria to avoid detection anomalies that commonly occur near the Moon's limb and terminator.
@@ -72,6 +66,11 @@ Resulting in a crisp, ultra-sharp image of the moon!
 <p align="center">
   <img src="assets/images/project_architecture.png" width="300" alt="Project Architecture">
 </p>
+
+<br>
+
+## Additional 
+A technical synopsys is available in the <code>documentation</code> folder.
 
 ---
 
