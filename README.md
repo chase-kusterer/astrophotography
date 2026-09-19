@@ -69,7 +69,7 @@ Resulting in a crisp, ultra-sharp image of the moon!
 
 <br>
 
-## Additional 
+## Additional Resources
 A technical synopsys is available in the <code>documentation</code> folder.
 
 ---
