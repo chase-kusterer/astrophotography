@@ -34,7 +34,7 @@ To align frames properly, a crater reference map has been developed from a refer
   <img src="assets/images/crater_reference_map.png" width="500" alt="Crater Reference Map">
 </p>
 
-To align with the crater reference map, Meta's lightweight ViT-B Segment Anything Model (SAM) is applied to segment to Moon in each video frame, as well as the reference mosaic. Captured frames are then rescaled through RANSAC circle fitting.
+To align with the crater reference map, Meta's lightweight ViT-B Segment Anything Model (SAM) is applied to segment the lit portion of the Moon in each video frame, as well as the reference mosaic. Captured frames are then rescaled through RANSAC circle fitting.
 <br><br>
 
 <p align="center">
